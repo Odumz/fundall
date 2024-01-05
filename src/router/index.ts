@@ -1,5 +1,6 @@
 import type { RouteRecordRaw } from "vue-router";
 import { createRouter, createWebHistory } from "vue-router";
+import NProgress from "@/config/nprogress";
 
 const routes: Array<RouteRecordRaw> = [
 //   {
@@ -115,6 +116,24 @@ export const router = createRouter({
   strict: true,
   // When switching pages, scroll to the top
   scrollBehavior: () => ({ left: 0, top: 0, smooth: true }),
+});
+
+// Injection Progress
+router.beforeEach((to) => {
+  if (!NProgress.isStarted()) {
+    NProgress.start();
+  }
+
+  const token:any = localStorage.getItem('token')
+  if (to.meta.requiresAuth) {
+    if (!token) {
+      router.push({ name: 'Login' })
+    }
+  }
+});
+
+router.afterEach(() => {
+  NProgress.done();
 });
 
 router.beforeEach((to, from, next) => {

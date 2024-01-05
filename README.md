@@ -1,6 +1,6 @@
 # iPos Web Solution
 
-This is the new [Walure Capital Website](https://walurecapital.com) built with VueJs.
+This is the new [iPos Web Application](https://ipos-smartware.com) built with VueJs.
 
 ## Table of contents
 
@@ -137,7 +137,7 @@ The folder structure contains the tree structure of what the entire project will
 > Please read the instructions carefully to understand how to contribute to the project using Git and Github.
 
 - Accept the git invite
-- Run the following command `git clone https://github.com/Odumz/iPos-revamp.git` to clone the repo to your local environment.
+- Run the following command `git clone https://github.com/Odumz/iPos-Client.git` to clone the repo to your local environment.
 - Run `git checkout develop` to move to the develop branch to get the most updated code.
 - Run `npm i` to install all necessary dependencies.
 - Run `git checkout -b ft-pageName-yourName` example `git checkout -b ft-ourServices-Shina` to create your branch for the page you want to work on.
