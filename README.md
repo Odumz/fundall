@@ -1,6 +1,6 @@
-# iPos Web Solution
+# upstore E-Commerce Application
 
-This is the new [iPos Web Application](https://ipos-smartware.com) built with VueJs.
+This is the new [upstore ecommerce application]() built with VueJs.
 
 ## Table of contents
 
@@ -22,18 +22,18 @@ This is the new [iPos Web Application](https://ipos-smartware.com) built with Vu
 
 ### The challenge
 
-The challenge is to rebuild the [iPos Web Application](https://ipos-smartware.com) using VueJS, Tailwind, Vitest, Vue-Router, and Pinia.
+The challenge is to build [upstore]() using VueJS, Tailwind, Vitest, Vue-Router, and Pinia. The
 
 ### The links
 
-- [Figma Link](https://www.figma.com/file/ptuoX8QVvt0srLvt8W4unh/Ipos-Redesign?type=design&node-id=1-2&mode=design&t=bc0krDACdLFEGqlf-0)
+- [Figma Link](https://www.figma.com/file/qQvc8O7MLIhJ6y3ncrETtm/E-commerce?type=design&node-id=0-1&mode=design&t=R7fkdgcTfdCPTVss-0)
 - [Asset Link](https://cloudinary.com/)
-- [Staging Repo](https://github.com/Odumz/iPos-revamp)
+- [Staging Repo](https://github.com/)
 - [Production Repo](https://github.com/)
-- [Development URL](https://ipos-by-smartware.netlify.app)
+- [Development URL]()
 - [Development API URL]()
 - [Production API URL]()
-- [Production URL](https://ipos-smartware.com)
+- [Production URL]()
 
 
 ## The process
