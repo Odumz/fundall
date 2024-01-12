@@ -4,7 +4,10 @@ Font
 
 Colors
 
-- upstore primary -- hsl(16.4, 90.8%, 57.5%)  ---  #F56630
+- upstore icon bg -- hsl(16, 100%, 97.1%)  ---  #FFF4F0
+- upstore primary-400 -- hsl(16.4, 90.8%, 57.5%)  ---  #F56630
+- upstore primary-500 -- hsl(16.1, 84.1%, 50.6%)  ---  #EB5017
+- upstore primary-600 -- hsl(16.3, 88.9%, 42.4%)  ---  #CC400C
 - upstore grey-900 -- hsl(217.5, 42.9%, 11%)  ---  #101928
 - upstore grey-800 -- hsl(218.6, 32.6%, 16.9%)  ---  #1D2739
 - upstore grey-700 -- hsl(217.5, 23.5%, 26.7%)  ---  #344054
@@ -12,6 +15,11 @@ Colors
 - upstore grey-500 -- hsl(218.7, 13.2%, 46.1%)  ---  #667185
 - upstore crayola red -- hsl(347.5, 83.8%, 51.6%)  ---  #EB1C47
 - upstore smoky black -- hsl(0, 0%, 5.5%)  ---  #0E0E0E
+
+- #ffffff
+- #B00074
+- #475367
+- #FBE2B7
 
 Headings
 
