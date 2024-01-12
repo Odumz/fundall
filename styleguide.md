@@ -1,6 +1,7 @@
 Font
 
 - Inter -- 400, 500, 600, 700;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 Colors
 
@@ -24,10 +25,13 @@ Colors
 Headings
 
 selector  |  m-size  |  m-line-height  |  m-weight  |  m-tracking  |  |  size  |  line-height  |  weight  |  tracking  |
-- h1 --   |   32px   |      normal     |     600    |  ----------  |  |  64px  |     normal    |    400   |  --------  |
-- h2 --   |   24px   |      normal     |     600    |  ----------  |  |  48px  |     normal    |    400   |  --------  |
-- h3 --   |   24px   |      normal     |     400    |  ----------  |  |  40px  |     normal    |    400   |  --------  |
-- h4 --   |   px     |      normal     |     400    |  ----------  |  |  31px  |     normal    |    400   |  --------  |
+- h1 --   |   32px   |      normal     |     600    |  ----------  |  |  40px  |      100%     |    400   |     -4%    |
+- h2 --   |   24px   |      normal     |     600    |  ----------  |  |  36px  |      100%     |    400   |     -4%    |
+- h3 --   |   24px   |      normal     |     400    |  ----------  |  |  32px  |      120%     |    400   |     -2%    |
+- h4 --   |   px     |      normal     |     400    |  ----------  |  |  28px  |      120%     |    400   |     -2%    |
+- h5 --   |   24px   |      normal     |     400    |  ----------  |  |  24px  |      120%     |    400   |     -2%    |
+- h6 --   |   px     |      normal     |     400    |  ----------  |  |  20px  |      120%     |    400   |     -2%    |
+
 
 Text
 
