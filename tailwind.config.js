@@ -23,14 +23,14 @@ export default {
         '7xl': '4564px',
       },
       colors: {
-        'ss-nav-icon': withOpacity('--color-ss-nav-icon'),
+        // 'ss-nav-icon': withOpacity('--color-ss-nav-icon'),
+        'upstore-primary-400': withOpacity('--color-upstore-primary-400'),
         'ss-crayola-red': withOpacity('--color-ss-crayola-red'),
-        'ss-headings': withOpacity('--color-ss-headings'),
-        'ss-smoky-black': withOpacity('--color-ss-smoky-black'),
+        // 'ss-headings': withOpacity('--color-ss-headings'),
+        // 'ss-smoky-black': withOpacity('--color-ss-smoky-black'),
       },
       fontFamily: {
-        Poppins: ['Poppins', 'sans-serif'],
-        Nunito: ['Nunito', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
       },
       keyframes: {
         hover: {

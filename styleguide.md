@@ -21,6 +21,7 @@ Colors
 - #B00074
 - #475367
 - #FBE2B7
+- #D0D5DD
 
 Headings
 

@@ -3,6 +3,14 @@ import { createRouter, createWebHistory } from "vue-router";
 import NProgress from "@/config/nprogress";
 
 const routes: Array<RouteRecordRaw> = [
+  {
+    path: '/',
+    name: 'Home',
+    component: () => import('@/layout/index.vue'),
+    meta: {
+      title: 'Home'
+    },
+  }
 //   {
 //     path: '/',
 //     name: 'Home',
@@ -137,6 +145,6 @@ router.afterEach(() => {
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = `iPos Web Solution | ${to.meta.title}`;
+  document.title = `Upstore | ${to.meta.title}`;
   next();
 })

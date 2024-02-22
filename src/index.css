@@ -1,5 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  :root {
+    font-family: Inter, system-ui, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    box-sizing: border-box;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+
+    --color-upstore-icon-bg: 16, 100%, 97.1%;
+    --color-upstore-primary-400: 16.4, 90.8%, 57.5%;
+    --color-upstore-primary-500: 16.1, 84.1%, 50.6%;
+    --color-upstore-primary-600: 16.3, 88.9%, 42.4%;
+    --color-upstore-grey-500: 218.7, 13.2%, 46.1%;
+    --color-upstore-grey-600: 217.5, 18.4%, 34.1%;
+    --color-upstore-grey-700: 217.5, 23.5%, 26.7%;
+    --color-upstore-grey-800: 218.6, 32.6%, 16.9%;
+    --color-upstore-grey-900: 217.5, 42.9%, 11%;
+    --color-upstore-grey-600: 217.5, 18.4%, 34.1%;
+  }
+
+  h1, h2 {
+    @apply font-semibold lg:font-normal lg:tracking-[-4%];
+  }
+
+  h3, h4, h5, h6 {
+    @apply font-normal lg:leading-[120%] lg:tracking-[-2%];
+  }
+
+  h1 {
+    @apply text-[32px] lg:text-[40px];
+  }
+
+  h2 {
+    @apply text-[24px] lg:text-[36px];
+  }
+
+  h3 {
+    @apply text-[24px] lg:text-[32px];
+  }
+
+  h4 {
+    @apply text-[20px] lg:text-[28px];
+  }
+
+  h5 {
+    @apply text-[16px] lg:text-[24px];
+  }
+
+  h6 {
+    @apply text-[12px] lg:text-[20px];
+  }
+
+  .btn {
+    @apply flex items-center justify-center gap-2 px-3 py-2 transition-all duration-500 ease-in;
+  }
+
+  .btn-primary {
+    @apply bg-upstore-primary-400 text-white hover:bg-white hover:text-upstore-primary-400 hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply border border-upstore-primary-400 text-upstore-primary-400 hover:shadow-md;
+  }
+
+  .btn-curved {
+    @apply rounded-[30px];
+  }
+
+  .btn-secondary-dark {
+    @apply border border-upstore-primary-400 text-upstore-primary-400 hover:shadow-md;
+  }
+
+  .btn-dark-curved {
+    @apply rounded-[16px];
+  }
+
+  .btn-arc {
+    @apply rounded-lg;
+  }
+
+  /* @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  } */
+}
