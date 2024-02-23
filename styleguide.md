@@ -14,14 +14,14 @@ Colors
 - upstore grey-700 -- hsl(217.5, 23.5%, 26.7%)  ---  #344054
 - upstore grey-600 -- hsl(217.5, 18.4%, 34.1%)  ---  #475367
 - upstore grey-500 -- hsl(218.7, 13.2%, 46.1%)  ---  #667185
-- upstore crayola red -- hsl(347.5, 83.8%, 51.6%)  ---  #EB1C47
-- upstore smoky black -- hsl(0, 0%, 5.5%)  ---  #0E0E0E
+- upstore grey-200 -- hsl(217.5, 17.4%, 91%)  ---  #E4E7EC
+- upstore grey-100 -- hsl(216, 45.5%, 97.8%)  ---  #F7F9FC
+
 
 - #ffffff
-- #B00074
-- #475367
-- #FBE2B7
-- #D0D5DD
+- upstore pdt flirt -- hsl(320.5, 100%, 34.5%)  ---  #B00074
+- upstore pdt banana -- hsl(37.9, 89.5%, 85.1%)  ---  #FBE2B7
+- upstore pdt silver -- hsl(216.9, 16%, 84.1%)  ---  #D0D5DD
 
 Headings
 

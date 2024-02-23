@@ -27,12 +27,17 @@
     --color-upstore-primary-400: 16.4, 90.8%, 57.5%;
     --color-upstore-primary-500: 16.1, 84.1%, 50.6%;
     --color-upstore-primary-600: 16.3, 88.9%, 42.4%;
+    --color-upstore-grey-100: 216, 45.5%, 97.8%;
+    --color-upstore-grey-200: 216, 45.5%, 97.8%;
     --color-upstore-grey-500: 218.7, 13.2%, 46.1%;
     --color-upstore-grey-600: 217.5, 18.4%, 34.1%;
     --color-upstore-grey-700: 217.5, 23.5%, 26.7%;
     --color-upstore-grey-800: 218.6, 32.6%, 16.9%;
     --color-upstore-grey-900: 217.5, 42.9%, 11%;
-    --color-upstore-grey-600: 217.5, 18.4%, 34.1%;
+
+    --color-upstore-pdt-flirt: 320.5, 100%, 34.5%;
+    --color-upstore-pdt-banana: 37.9, 89.5%, 85.1%;
+    --color-upstore-pdt-silver: 216.9, 16%, 84.1%;
   }
 
   h1, h2 {
