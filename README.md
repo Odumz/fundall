@@ -28,11 +28,8 @@ The challenge is to build [fundall-expense tracker]() using VueJS, Tailwind, Vit
 
 - [Figma Link](https://www.figma.com/file/OEtHmLrhs9E4LAkWCkBXte/Expense-Tracker-Mini-Project-Frontend?type=design&node-id=2-1350&mode=design&viewport=418%2C390%2C0.024849005043506622&t=70tkFZubWsOnETrx-0)
 - [Staging Repo](https://github.com/)
-- [Production Repo](https://github.com/)
-- [Development URL]()
-- [Development API URL]()
-- [Production API URL]()
-- [Production URL]()
+- [Staging URL]()
+- [Staging API URL](https://expense-api.fundall.io)
 
 
 ## The process
@@ -99,18 +96,10 @@ The folder structure contains the tree structure of what the entire project will
 `├── src` 📂 this folder contains all the source code for the walure capital website <br />
 `├── assets` 📂 this folder contains all the assets (images, videos, css, js etc.) for the Walure Capital website <br />
 `├── css` 📂 this folder contains all other necessary css codes for the Walure Capital website <br />
-`├── js` 📂 this folder contains all other necessary js codes for the Walure Capital website <br />
-`├── img` 📂 this folder contains all the image assets for the Walure Capital website <br />
 `├── components` 📂 this folder contains all the reusable components <br />
-`├── careers.html` this file contains all the necessary codes for the reactive part of the careers page <br />
-`├── spinner.html` this file contains all the necessary codes for the spinner component to be used for loading states <br />
-`├── courses.html` this file contains all the necessary codes for the reactive part of the courses page <br />
-`├── featured-courses.html` this file contains all the necessary codes for the featured-course part of the home page <br />
-`├── footer.html` this file contains all the necessary codes for the footer <br />
-`├── header.html` this file contains all the necessary codes for the header <br />
-`├── pagination.html` this file contains all the necessary codes for the pagination <br />
+`├── spinner.vue` this file contains all the necessary codes for the spinner component to be used for loading states <br />
 `├── utils` 📂 this folder contains all the utility functions that will be resuable <br />
-`├── validation.js` this file contains all the necessary codes for validating form fields <br />
+`├── validation.ts` this file contains all the necessary codes for validating form fields <br />
 `├── views` 📂 this folder contains all the pages for the Walure Capital website <br />
 `├── about-walure-capital.html` this is the Walure Capital about page <br />
 `├── build-your-career.html` this is the Walure Capital careers page <br />
