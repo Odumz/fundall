@@ -28,6 +28,7 @@ export default {
         'upstore-primary-600': withOpacity('--color-upstore-primary-600'),
         'upstore-grey-100': withOpacity('--color-upstore-grey-100'),
         'upstore-grey-200': withOpacity('--color-upstore-grey-200'),
+        'upstore-grey-400': withOpacity('--color-upstore-grey-400'),
         'upstore-grey-500': withOpacity('--color-upstore-grey-500'),
         'upstore-grey-600': withOpacity('--color-upstore-grey-600'),
         'upstore-grey-700': withOpacity('--color-upstore-grey-700'),

@@ -6,116 +6,35 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('@/layout/index.vue'),
+    component: () => import('@/views/index.vue'),
     meta: {
       title: 'Home'
+    }
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('@/views/auth/Login.vue'),
+    meta: {
+      title: 'Login'
     },
-  }
-//   {
-//     path: '/',
-//     name: 'Home',
-//     component: () => import('@/layout/index.vue'),
-//     children: [
-//       {
-//         path: '',
-//         name: 'Landing',
-//         component: () => import('@/views/Home.vue'),
-//         meta: {
-//           title: 'Home'
-//         },
-//       },
-//       {
-//         path: '/our-best-works',
-//         name: 'OurWorks',
-//         component: () => import('@/views/Portfolio.vue'),
-//         children: [
-//           {
-//             path: '',
-//             name: 'Portfolio',
-//             component: () => import('@/components/portfolio.vue'),
-//             meta: {
-//               title: 'Portfolio - Our best works.'
-//             },
-//           },
-//           {
-//             path: 'animations',
-//             children:[
-//               {
-//                 path: '',
-//                 name: 'Animation',
-//                 component: () => import('@/components/animation.vue'),
-//                 meta: {
-//                   title: 'Animations - Our best works.'
-//                 },
-//               },
-//               {
-//                 path: 'article',
-//                 name: 'Article',
-//                 component: () => import('@/components/article.vue'),
-//                 meta: {
-//                   title: 'Animations - Our best works.'
-//                 },
-//               },
-//             ]
-//           },
-//           {
-//             path: 'illustrations',
-//             name: 'Illustration',
-//             component: () => import('@/components/illustration.vue'),
-//             meta: {
-//               title: 'Illustrations - Our best works.'
-//             },
-//           },
-//           {
-//             path: 'branding',
-//             name: 'Branding',
-//             component: () => import('@/components/branding.vue'),
-//             meta: {
-//               title: 'Branding - Our best works.'
-//             },
-//           },
-//         ]
-//       },
-//       {
-//         path: '/what-we-do',
-//         name: 'Service',
-//         component: () => import('@/views/Service.vue'),
-//         meta: {
-//           title: 'Services'
-//         },
-//       },
-//       {
-//         path: '/connect-with-symphonii-studios',
-//         name: 'Contact',
-//         component: () => import('@/views/Contact.vue'),
-//         meta: {
-//           title: 'Contact Us'
-//         },
-//       },
-//       {
-//         path: '/about-symphonii-studios',
-//         name: 'About',
-//         component: () => import('@/views/About.vue'),
-//         meta: {
-//           title: 'About Us'
-//         },
-//       },
-//       // {
-//       //   path: '/comic',
-//       //   name: 'Comic',
-//       //   component: () => import('@/views/Comic.vue'),
-//       //   meta: {
-//       //     title: 'Comic Us'
-//       //   },
-//       // },
-//     ]
-//   },
-//   {
-//     path: '/:pathMatch(.*)*',
-//     name: 'Error',
-//     component: () => import('@/views/ErrorPage.vue'),
-//     meta: { requiresAuth: false },
-//   },
+  },
+  {
+    path: '/create-an-account',
+    name: 'Register',
+    component: () => import('@/views/auth/Register.vue'),
+    meta: {
+      title: 'Register'
+    },
+  },
+  {
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: () => import('@/views/dashboard/Index.vue'),
+    meta: {
+      title: 'Dashboard'
+    },
+  },
 ];
 
 export const router = createRouter({
@@ -145,6 +64,6 @@ router.afterEach(() => {
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = `Upstore | ${to.meta.title}`;
+  document.title = `Fundall - Expense Tracker | ${to.meta.title}`;
   next();
 })

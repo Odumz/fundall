@@ -1,18 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: CircularStd;
+  font-weight: 300;
+  src: url('/fonts/CircularStd-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: CircularStd;
+  font-weight: 400;
+  src: url('/fonts/CircularStd-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: CircularStd;
+  font-weight: 500;
+  src: url('/fonts/CircularStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: CircularStd;
+  font-weight: 700;
+  src: url('/fonts/CircularStd-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: CircularStd;
+  font-weight: 900;
+  src: url('/fonts/CircularStd-Black.otf') format('opentype');
+}
+
 @layer base{
   :root {
-    font-family: Inter, system-ui, sans-serif;
+    font-family: CircularStd, system-ui, sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #FCFBFC;
     box-sizing: border-box;
 
     font-synthesis: none;
@@ -23,21 +51,8 @@
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
 
-    --color-upstore-icon-bg: 16, 100%, 97.1%;
-    --color-upstore-primary-400: 16.4, 90.8%, 57.5%;
-    --color-upstore-primary-500: 16.1, 84.1%, 50.6%;
-    --color-upstore-primary-600: 16.3, 88.9%, 42.4%;
-    --color-upstore-grey-100: 216, 45.5%, 97.8%;
-    --color-upstore-grey-200: 216, 45.5%, 97.8%;
-    --color-upstore-grey-500: 218.7, 13.2%, 46.1%;
-    --color-upstore-grey-600: 217.5, 18.4%, 34.1%;
-    --color-upstore-grey-700: 217.5, 23.5%, 26.7%;
-    --color-upstore-grey-800: 218.6, 32.6%, 16.9%;
-    --color-upstore-grey-900: 217.5, 42.9%, 11%;
-
-    --color-upstore-pdt-flirt: 320.5, 100%, 34.5%;
-    --color-upstore-pdt-banana: 37.9, 89.5%, 85.1%;
-    --color-upstore-pdt-silver: 216.9, 16%, 84.1%;
+    --color-fundall-green: 148.1, 77.2%, 60.4%;
+    --color-fundall-black: 148.1, 77.2%, 60.4%;
   }
 
   h1, h2 {
@@ -70,6 +85,26 @@
 
   h6 {
     @apply text-[12px] lg:text-[20px];
+  }
+
+  label {
+    @apply relative text-[16px] leading-[20px]
+  }
+
+  .input {
+    @apply relative grid content-start gap-y-[6px] w-full text-[#30443C];
+  }
+
+  input {
+    @apply relative flex items-center outline-none w-full bg-transparent rounded text-base px-6 py-3 text-[18px] leading-[23px] border border-[#CAD0C9] placeholder:opacity-60 focus:outline-[#4DE897];
+  }
+
+  input:focus + label {
+    @apply text-[#4DE897];
+  }
+
+  .error {
+    @apply absolute top-[74px] text-xs text-red-500;
   }
 
   .btn {
